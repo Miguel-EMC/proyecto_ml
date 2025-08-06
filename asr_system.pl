@@ -118,14 +118,101 @@ sub normalize_text {
         'millón' => '000000',
         'estados unidos' => 'ee uu',
         'eeuu' => 'ee uu',
+        'cero' => '<NUM>',
+        'uno' => '<NUM>',
+        'dos' => '<NUM>',
+        'tres' => '<NUM>',
+        'cuatro' => '<NUM>',
+        'cinco' => '<NUM>',
+        'seis' => '<NUM>',
+        'siete' => '<NUM>',
+        'ocho' => '<NUM>',
+        'nueve' => '<NUM>',
+        'diez' => '<NUM>',
+        'once' => '<NUM>',
+        'doce' => '<NUM>',
+        'trece' => '<NUM>',
+        'catorce' => '<NUM>',
+        'quince' => '<NUM>',
+        'dieciseis' => '<NUM>',
+        'dieciséis' => '<NUM>',
+        'diecisiete' => '<NUM>',
+        'dieciocho' => '<NUM>',
+        'diecinueve' => '<NUM>',
+        'veinte' => '<NUM>',
+        'treinta' => '<NUM>',
+        'cuarenta' => '<NUM>',
+        'cincuenta' => '<NUM>',
+        'sesenta' => '<NUM>',
+        'setenta' => '<NUM>',
+        'ochenta' => '<NUM>',
+        'noventa' => '<NUM>',
+        'cien' => '<NUM>',
+        'ciento' => '<NUM>',
+        'doscientos' => '<NUM>',
+        'doscientas' => '<NUM>',
+        'trescientos' => '<NUM>',
+        'trescientas' => '<NUM>',
+        'trecientos' => '<NUM>',
+        'cuatrocientos' => '<NUM>',
+        'cuatrocientas' => '<NUM>',
+        'quinientos' => '<NUM>',
+        'quinientas' => '<NUM>',
+        'seiscientos' => '<NUM>',
+        'seiscientas' => '<NUM>',
+        'setecientos' => '<NUM>',
+        'setecientas' => '<NUM>',
+        'ochocientos' => '<NUM>',
+        'ochocientas' => '<NUM>',
+        'novecientos' => '<NUM>',
+        'novecientas' => '<NUM>',
+        'cientos' => '<NUM>',
+        'miles' => '<NUM>',
+        'millón' => '<NUM>',
+        'billón' => '<NUM>',
+        'media' => '<NUM>',
+        'medio' => '<NUM>',
+        'docena' => '<NUM>',
+        'decena' => '<NUM>',
+        'centena' => '<NUM>',
+        'primero' => '<NUM>',
+        'primera' => '<NUM>',
+        'segundo' => '<NUM>',
+        'tercero' => '<NUM>',
+        'cuarto' => '<NUM>',
+        'quinto' => '<NUM>',
+        'sexto' => '<NUM>',
+        'séptimo' => '<NUM>',
+        'octavo' => '<NUM>',
+        'noveno' => '<NUM>',
+        'décimo' => '<NUM>',
+        'veintiuno' => '<NUM>',
+        'veintidos' => '<NUM>',
+        'veintitres' => '<NUM>',
+        'veinticuatro' => '<NUM>',
+        'veinticinco' => '<NUM>',
+        'veintiseis' => '<NUM>',
+        'veintisiete' => '<NUM>',
+        'veintiocho' => '<NUM>',
+        'veintinueve' => '<NUM>',
     );
 
     foreach my $key (keys %conversions) {
         $text =~ s/\b\Q$key\E\b/$conversions{$key}/gi;
     }
 
-    # Convertir números a <NUM>
+    # Convertir números compuestos de múltiples palabras
+    $text =~ s/\b(doscientos|trescientos|cuatrocientos|quinientos|seiscientos|setecientos|ochocientos|novecientos)\s+(uno|dos|tres|cuatro|cinco|seis|siete|ocho|nueve|diez|once|doce|trece|catorce|quince|dieciseis|diecisiete|dieciocho|diecinueve|veinte|veintiuno|veintidos|veintitres|veinticuatro|veinticinco|veintiseis|veintisiete|veintiocho|veintinueve|treinta|cuarenta|cincuenta|sesenta|setenta|ochenta|noventa)\b/<NUM>/gi;
+
+    # Números de 21-99 con "y"
+    $text =~ s/\b(veinte|treinta|cuarenta|cincuenta|sesenta|setenta|ochenta|noventa)\s+y\s+(uno|dos|tres|cuatro|cinco|seis|siete|ocho|nueve)\b/<NUM>/gi;
+
+    # Convertir números y decimales a <NUM>
     $text =~ s/\b\d+([.,]\d+)*\b/<NUM>/g;
+    # Convertir números con separadores de miles
+    $text =~ s/\b\d{1,3}([\.,]\d{3})+\b/<NUM>/g;
+    # Convertir porcentajes
+    $text =~ s/\b\d+([.,]\d+)*\s*%\b/<NUM>/g;
 
     # Limpiar puntuación y espacios
     $text =~ s/[^\p{L}\p{N}\s'<>-]/ /g;
@@ -435,6 +522,28 @@ sub map_alignment_to_time {
 # CLASIFICACIÓN DE ERRORES
 #############################################################################
 
+sub is_number_word {
+    my ($word) = @_;
+    my %number_words = (
+        'cero' => 1, 'uno' => 1, 'dos' => 1, 'tres' => 1, 'cuatro' => 1, 'cinco' => 1,
+        'seis' => 1, 'siete' => 1, 'ocho' => 1, 'nueve' => 1, 'diez' => 1, 'once' => 1,
+        'doce' => 1, 'trece' => 1, 'catorce' => 1, 'quince' => 1, 'dieciseis' => 1,
+        'dieciséis' => 1, 'diecisiete' => 1, 'dieciocho' => 1, 'diecinueve' => 1,
+        'veinte' => 1, 'veintiuno' => 1, 'veintidos' => 1, 'veintitres' => 1,
+        'veinticuatro' => 1, 'veinticinco' => 1, 'veintiseis' => 1, 'veintisiete' => 1,
+        'veintiocho' => 1, 'veintinueve' => 1, 'treinta' => 1, 'cuarenta' => 1,
+        'cincuenta' => 1, 'sesenta' => 1, 'setenta' => 1, 'ochenta' => 1, 'noventa' => 1,
+        'cien' => 1, 'ciento' => 1, 'doscientos' => 1, 'doscientas' => 1, 'trescientos' => 1, 'trescientas' => 1, 'trecientos' => 1, 'cuatrocientos' => 1, 'cuatrocientas' => 1,
+        'quinientos' => 1, 'quinientas' => 1, 'seiscientos' => 1, 'seiscientas' => 1, 'setecientos' => 1, 'setecientas' => 1, 'ochocientos' => 1, 'ochocientas' => 1,
+        'novecientos' => 1, 'novecientas' => 1, 'mil' => 1, 'miles' => 1, 'millon' => 1, 'millón' => 1, 'millones' => 1, 'billón' => 1,
+        'cientos' => 1, 'media' => 1, 'medio' => 1, 'docena' => 1, 'decena' => 1, 'centena' => 1,
+        'primero' => 1, 'primera' => 1, 'segundo' => 1, 'tercero' => 1, 'cuarto' => 1, 'quinto' => 1,
+        'sexto' => 1, 'séptimo' => 1, 'octavo' => 1, 'noveno' => 1, 'décimo' => 1
+    );
+
+    return exists $number_words{lc($word)};
+}
+
 sub detect_real_errors {
     my ($timed_segments, $transcription_text) = @_;
 
@@ -466,12 +575,34 @@ sub detect_real_errors {
         # CORRECCIÓN: Verificar palabras del IPU contra el índice de transcripción
         # Solo marcar como error si la palabra NO está en la transcripción
         if ($operation eq 'insert' && $ipu_word) {
+            # NUNCA marcar números como errores
+            my $original_ipu = $ipu_word;
+            my @original_words = split(/\s+/, lc($original_ipu));
+            my $contains_number = 0;
+
+            foreach my $orig_word (@original_words) {
+                if ($orig_word =~ /^\d+([.,]\d+)*$/ || is_number_word($orig_word)) {
+                    $contains_number = 1;
+                    last;
+                }
+            }
+
+            my $normalized_ipu = normalize_text($ipu_word);
+            if ($normalized_ipu =~ /<NUM>/) {
+                $contains_number = 1;
+            }
+            next if $contains_number;
+
             my @ipu_words = split(/\s+/, normalize_text($ipu_word));
             my $found_in_transcription = 0;
 
             # Verificar cada palabra del segmento IPU
             foreach my $word (@ipu_words) {
-                next if $word eq '<NUM>' || $word eq '';
+                next if $word eq '' || $word =~ /^-+$/;
+                if ($word eq '<NUM>' || $word =~ /^\d+([.,]\d+)*$/) {
+                    $found_in_transcription = 1;
+                    last;
+                }
                 if (exists $transcription_index{$word}) {
                     $found_in_transcription = 1;
                     last;
@@ -491,11 +622,36 @@ sub detect_real_errors {
         # También verificar matches con baja similitud
         elsif ($operation eq 'match' && $ipu_word && $transcription_word) {
             my $similarity = $align_info->{similarity} || 0;
+            my $original_ipu = $ipu_word;
+            my @original_words = split(/\s+/, lc($original_ipu));
+            my $contains_number = 0;
+
+            foreach my $orig_word (@original_words) {
+                if ($orig_word =~ /^\d+([.,]\d+)*$/ || is_number_word($orig_word)) {
+                    $contains_number = 1;
+                    last;
+                }
+            }
+
+            # También verificar versión normalizada
+            my $normalized_ipu = normalize_text($ipu_word);
+            if ($normalized_ipu =~ /<NUM>/) {
+                $contains_number = 1;
+            }
+
+            # Si contiene números, no marcar como error
+            next if $contains_number;
+
             my @ipu_words = split(/\s+/, normalize_text($ipu_word));
             my $found_in_transcription = 0;
 
             foreach my $word (@ipu_words) {
-                next if $word eq '<NUM>' || $word eq '';
+                next if $word eq '' || $word =~ /^-+$/;
+                # Si es <NUM>, considerarlo siempre como encontrado
+                if ($word eq '<NUM>' || $word =~ /^\d+([.,]\d+)*$/) {
+                    $found_in_transcription = 1;
+                    last;
+                }
                 if (exists $transcription_index{$word}) {
                     $found_in_transcription = 1;
                     last;
@@ -593,8 +749,22 @@ sub create_enhanced_textgrid_tiers {
     # Tier de errores (solo palabras que NO están en la transcripción)
     my $errors_tier = new NodeChain('ErrorsOnly');
     foreach my $error (@$error_segments) {
-        my $error_text = "ERROR: '" . $error->{ipu_word} . "'";
+        my $ipu_text = $error->{ipu_word};
+        my $contains_num = 0;
+        if ($ipu_text =~ /<NUM>/) {
+            $contains_num = 1;
+        } else {
+            my @words = split(/\s+/, lc($ipu_text));
+            foreach my $word (@words) {
+                if ($word =~ /^\d+([.,]\d+)*$/ || is_number_word($word)) {
+                    $contains_num = 1;
+                    last;
+                }
+            }
+        }
+        next if $contains_num;
 
+        my $error_text = "ERROR: '" . $ipu_text . "'";
         my $range = new Range($error->{start_time}, $error->{end_time});
         my $node = new Node($error_text, $range);
         $errors_tier->addNodes($node);
@@ -658,6 +828,16 @@ sub classify_alignment_error {
     my $operation = $alignment_item->{operation};
     my $word1 = $alignment_item->{word1} || '';
     my $word2 = $alignment_item->{word2} || '';
+
+    if (($word1 =~ /^\d+([.,]\d+)*$/ || $word1 eq '<NUM>') &&
+        ($word2 =~ /^\d+([.,]\d+)*$/ || $word2 eq '<NUM>')) {
+        return '<M>';
+    }
+
+    # Verificar guiones - deben ser Delete
+    if ($word1 =~ /^-+$/ || $word2 =~ /^-+$/) {
+        return '<D>';
+    }
 
     return '<M>' if $word1 eq $word2;
     return '<D>' if $operation eq 'delete';
@@ -857,6 +1037,25 @@ sub process_dataset {
     # Concatenar IPUs vacíos/errores consecutivos
     my $concatenated_errors = concatenate_empty_ipus($detection_results->{errors});
 
+    # Filtrar números de la lista final de errores para JSON
+    my @filtered_errors;
+    foreach my $error (@$concatenated_errors) {
+        my $ipu_text = $error->{ipu_word};
+        my $contains_num = 0;
+        if ($ipu_text =~ /<NUM>/) {
+            $contains_num = 1;
+        } else {
+            my @words = split(/\s+/, lc($ipu_text));
+            foreach my $word (@words) {
+                if ($word =~ /^\d+([.,]\d+)*$/ || is_number_word($word)) {
+                    $contains_num = 1;
+                    last;
+                }
+            }
+        }
+        push @filtered_errors, $error unless $contains_num;
+    }
+
     # Crear tiers mejorados en TextGrid
     create_enhanced_textgrid_tiers($textgrid, $detection_results->{transcription_tier}, $concatenated_errors);
 
@@ -868,8 +1067,8 @@ sub process_dataset {
     my $classification_file = "results/${dataset_id}_classification.json";
     my $results = {
         timestamp => scalar(localtime),
-        total_real_errors => scalar(@$concatenated_errors),
-        real_errors => $concatenated_errors,
+        total_real_errors => scalar(@filtered_errors),
+        real_errors => \@filtered_errors,
         transcription_segments => scalar(@{$detection_results->{transcription_tier}}),
         analysis_type => 'audio_only_errors'
     };
@@ -885,7 +1084,7 @@ sub process_dataset {
     return {
         dataset_id => $dataset_id,
         timed_segments => $timed_segments,
-        real_errors => $concatenated_errors
+        real_errors => \@filtered_errors
     };
 }
 

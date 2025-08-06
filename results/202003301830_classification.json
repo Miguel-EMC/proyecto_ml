@@ -1,308 +1,62 @@
 {
-   "transcription_segments" : 1968,
    "real_errors" : [
       {
          "end_time" : 40.585814,
          "error_type" : "audio_only",
-         "start_time" : 0,
-         "ipu_word" : "introduccion"
+         "ipu_word" : "introduccion",
+         "start_time" : 0
       },
       {
+         "end_time" : 85.350164,
+         "error_type" : "audio_only",
          "ipu_word" : "japo",
-         "start_time" : 84.962131,
-         "error_type" : "audio_only",
-         "end_time" : 85.350164
-      },
-      {
-         "ipu_word" : "doscientos sesenta",
-         "end_time" : 128.229923714286,
-         "error_type" : "concatenated_audio_only",
-         "start_time" : 127.384054571429
-      },
-      {
-         "start_time" : 139.8812699,
-         "error_type" : "audio_only",
-         "end_time" : 140.15994085,
-         "ipu_word" : "veintinueve"
-      },
-      {
-         "error_type" : "audio_only",
-         "start_time" : 157.587815714286,
-         "end_time" : 157.923132,
-         "ipu_word" : "cuatro"
-      },
-      {
-         "end_time" : 164.140796222222,
-         "start_time" : 163.798658111111,
-         "error_type" : "audio_only",
-         "ipu_word" : "quince"
-      },
-      {
-         "end_time" : 192.574048,
-         "start_time" : 192.365912,
-         "error_type" : "audio_only",
-         "ipu_word" : "ocho"
-      },
-      {
-         "ipu_word" : "ochenta",
-         "start_time" : 195.996978625,
-         "error_type" : "audio_only",
-         "end_time" : 196.3204080625
-      },
-      {
-         "ipu_word" : "seis",
-         "end_time" : 196.9672669375,
-         "start_time" : 196.6438375,
-         "error_type" : "audio_only"
-      },
-      {
-         "ipu_word" : "quinientos sesenta",
-         "end_time" : 201.163798416667,
-         "start_time" : 200.54491425,
-         "error_type" : "concatenated_audio_only"
-      },
-      {
-         "start_time" : 205.322565142857,
-         "error_type" : "audio_only",
-         "end_time" : 205.59363352381,
-         "ipu_word" : "ocho"
-      },
-      {
-         "error_type" : "audio_only",
-         "start_time" : 207.762180571429,
-         "end_time" : 208.033248952381,
-         "ipu_word" : "cuarenta"
-      },
-      {
-         "start_time" : 211.789740384615,
-         "error_type" : "concatenated_audio_only",
-         "end_time" : 212.374936076923,
-         "ipu_word" : "quinientos veintitres"
-      },
-      {
-         "ipu_word" : "nueve",
-         "error_type" : "audio_only",
-         "start_time" : 218.3052065,
-         "end_time" : 218.6274011875
-      },
-      {
-         "ipu_word" : "trecientos",
-         "end_time" : 219.2717905625,
-         "error_type" : "audio_only",
-         "start_time" : 218.949595875
-      },
-      {
-         "error_type" : "audio_only",
-         "start_time" : 234.953486923077,
-         "end_time" : 235.244173769231,
-         "ipu_word" : "cuatro"
-      },
-      {
-         "ipu_word" : "seiscientos",
-         "end_time" : 235.825547461538,
-         "error_type" : "audio_only",
-         "start_time" : 235.534860615385
-      },
-      {
-         "end_time" : 301.112603647059,
-         "error_type" : "audio_only",
-         "start_time" : 300.814103941176,
-         "ipu_word" : "sesenta"
-      },
-      {
-         "end_time" : 301.709603058824,
-         "start_time" : 301.411103352941,
-         "error_type" : "audio_only",
-         "ipu_word" : "ocho"
-      },
-      {
-         "start_time" : 389.074720461538,
-         "error_type" : "audio_only",
-         "end_time" : 389.366476846154,
-         "ipu_word" : "ochenta"
-      },
-      {
-         "ipu_word" : "diecinueve",
-         "start_time" : 392.330377888889,
-         "error_type" : "audio_only",
-         "end_time" : 392.545319
-      },
-      {
-         "ipu_word" : "setenta",
-         "end_time" : 420.8545905,
-         "error_type" : "audio_only",
-         "start_time" : 420.5516363125
-      },
-      {
-         "end_time" : 424.546663642857,
-         "error_type" : "audio_only",
-         "start_time" : 424.264063321429,
-         "ipu_word" : "diecisiete"
-      },
-      {
-         "ipu_word" : "veinticinco",
-         "end_time" : 433.231645888889,
-         "error_type" : "audio_only",
-         "start_time" : 432.940450944444
-      },
-      {
-         "start_time" : 445.322315857143,
-         "error_type" : "audio_only",
-         "end_time" : 445.557209571429,
-         "ipu_word" : "seis"
-      },
-      {
-         "start_time" : 454.436007411765,
-         "error_type" : "audio_only",
-         "end_time" : 454.799163882353,
-         "ipu_word" : "setenta"
+         "start_time" : 84.962131
       },
       {
          "start_time" : 459.520198,
+         "ipu_word" : "descanso",
          "error_type" : "audio_only",
-         "end_time" : 476.284158,
-         "ipu_word" : "descanso"
+         "end_time" : 476.284158
       },
       {
-         "start_time" : 527.799432,
-         "error_type" : "audio_only",
-         "end_time" : 528.113771647059,
-         "ipu_word" : "cincuenta"
-      },
-      {
-         "ipu_word" : "nueve",
-         "error_type" : "audio_only",
-         "start_time" : 528.428111294118,
-         "end_time" : 528.742450941176
-      },
-      {
-         "end_time" : 529.371130235294,
-         "error_type" : "audio_only",
-         "start_time" : 529.056790588235,
-         "ipu_word" : "quinientas"
-      },
-      {
-         "ipu_word" : "novecientos sesenta",
-         "end_time" : 535.270215666667,
-         "start_time" : 534.463532333333,
-         "error_type" : "concatenated_audio_only"
-      },
-      {
-         "ipu_word" : "cinco",
-         "error_type" : "audio_only",
-         "start_time" : 535.673557333333,
-         "end_time" : 536.076899
-      },
-      {
-         "ipu_word" : "veinte coma nueve",
-         "end_time" : 556.0823618,
-         "error_type" : "concatenated_audio_only",
-         "start_time" : 555.1967525
-      },
-      {
-         "ipu_word" : "two",
-         "end_time" : 600.170067,
          "start_time" : 599.884891714286,
-         "error_type" : "audio_only"
-      },
-      {
-         "ipu_word" : "treinta",
-         "end_time" : 605.925871,
+         "ipu_word" : "two",
          "error_type" : "audio_only",
-         "start_time" : 605.63443725
+         "end_time" : 600.170067
       },
       {
-         "end_time" : 606.5087385,
-         "start_time" : 606.21730475,
-         "error_type" : "audio_only",
-         "ipu_word" : "seis"
-      },
-      {
-         "ipu_word" : "veinte",
-         "error_type" : "audio_only",
-         "start_time" : 619.694647230769,
-         "end_time" : 619.917422846154
-      },
-      {
-         "ipu_word" : "nueve",
-         "start_time" : 620.140198461538,
-         "error_type" : "audio_only",
-         "end_time" : 620.362974076923
-      },
-      {
-         "ipu_word" : "ochenta",
-         "error_type" : "audio_only",
-         "start_time" : 621.254076538462,
-         "end_time" : 621.476852153846
-      },
-      {
-         "ipu_word" : "seis",
-         "start_time" : 621.699627769231,
-         "error_type" : "audio_only",
-         "end_time" : 621.922403384615
-      },
-      {
-         "ipu_word" : "novecientos sesenta",
-         "error_type" : "concatenated_audio_only",
-         "start_time" : 632.860840428571,
-         "end_time" : 633.482437
-      },
-      {
-         "ipu_word" : "doscientas",
-         "start_time" : 642.6273555,
-         "error_type" : "audio_only",
-         "end_time" : 642.99666175
-      },
-      {
-         "ipu_word" : "point",
          "end_time" : 658.992960888889,
-         "start_time" : 658.649576777778,
-         "error_type" : "audio_only"
-      },
-      {
-         "ipu_word" : "doscientas",
-         "start_time" : 665.686926058824,
          "error_type" : "audio_only",
-         "end_time" : 665.974022823529
-      },
-      {
-         "ipu_word" : "cinco",
-         "end_time" : 667.983700176471,
-         "start_time" : 667.696603411765,
-         "error_type" : "audio_only"
+         "ipu_word" : "point",
+         "start_time" : 658.649576777778
       },
       {
          "ipu_word" : "antes",
-         "end_time" : 738.8780436,
          "start_time" : 738.518929,
-         "error_type" : "audio_only"
-      },
-      {
-         "ipu_word" : "terminar",
-         "end_time" : 739.5962728,
          "error_type" : "audio_only",
-         "start_time" : 739.2371582
+         "end_time" : 738.8780436
       },
       {
-         "ipu_word" : "recordamos",
-         "end_time" : 740.314502,
+         "start_time" : 739.2371582,
+         "ipu_word" : "terminar",
+         "error_type" : "audio_only",
+         "end_time" : 739.5962728
+      },
+      {
+         "error_type" : "audio_only",
          "start_time" : 739.9553874,
-         "error_type" : "audio_only"
-      },
-      {
-         "end_time" : 741.3918458,
-         "start_time" : 740.6736166,
-         "error_type" : "concatenated_audio_only",
-         "ipu_word" : "primera noticia"
+         "ipu_word" : "recordamos",
+         "end_time" : 740.314502
       },
       {
          "ipu_word" : "ex",
-         "end_time" : 768.436321307692,
+         "start_time" : 768.123212153846,
          "error_type" : "audio_only",
-         "start_time" : 768.123212153846
+         "end_time" : 768.436321307692
       }
    ],
+   "timestamp" : "Wed Aug  6 15:52:27 2025",
+   "transcription_segments" : 1968,
    "analysis_type" : "audio_only_errors",
-   "timestamp" : "Tue Aug  5 22:00:24 2025",
-   "total_real_errors" : 50
+   "total_real_errors" : 9
 }
