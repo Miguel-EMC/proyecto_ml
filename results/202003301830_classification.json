@@ -1,2542 +1,308 @@
 {
-   "total_errors" : 317,
-   "errors" : [
+   "transcription_segments" : 1968,
+   "real_errors" : [
       {
-         "error_label" : "<S>",
-         "operation" : "match",
-         "start_time" : 0,
          "end_time" : 40.585814,
-         "ipu_word" : "introduccion",
-         "transcription_word" : "jap"
+         "error_type" : "audio_only",
+         "start_time" : 0,
+         "ipu_word" : "introduccion"
       },
       {
-         "transcription_word" : "u00f3n",
-         "ipu_word" : "japon",
-         "end_time" : 40.95209135,
-         "start_time" : 40.585814,
-         "error_label" : "<A5>",
-         "operation" : "match"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A1>",
-         "ipu_word" : "prohibicion",
-         "transcription_word" : "prohibici",
-         "end_time" : 42.7834781,
-         "start_time" : 42.41720075
-      },
-      {
-         "error_label" : "<A3>",
-         "operation" : "match",
-         "transcription_word" : "pa",
-         "ipu_word" : "pais",
-         "start_time" : 43.88231015,
-         "end_time" : 44.2485875
-      },
-      {
-         "transcription_word" : "mayor",
-         "ipu_word" : "mayoria",
-         "start_time" : 49.6432649090909,
-         "end_time" : 49.9737728181818,
-         "operation" : "match",
-         "error_label" : "<A2>"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A3>",
-         "transcription_word" : "u00e1tico",
-         "ipu_word" : "asiatico",
-         "end_time" : 52.948344,
-         "start_time" : 52.6178360909091
-      },
-      {
-         "ipu_word" : "propagacion",
-         "transcription_word" : "propagaci",
-         "start_time" : 54.0366192,
-         "end_time" : 54.3540203,
-         "error_label" : "<A1>",
-         "operation" : "match"
-      },
-      {
-         "ipu_word" : "ademas",
-         "transcription_word" : "adem",
-         "start_time" : 57.79036,
-         "end_time" : 58.1171556666667,
-         "operation" : "match",
-         "error_label" : "<A2>"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A2>",
-         "start_time" : 58.770747,
-         "end_time" : 59.0975426666667,
-         "ipu_word" : "japones",
-         "transcription_word" : "japon"
-      },
-      {
-         "error_label" : "<A3>",
-         "operation" : "match",
-         "end_time" : 70.5669624285714,
-         "start_time" : 70.2564442857143,
-         "ipu_word" : "prohibe",
-         "transcription_word" : "proh"
-      },
-      {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "ipu_word" : "japon",
-         "transcription_word" : "jap",
-         "start_time" : 71.4985168571428,
-         "end_time" : 71.809035
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A3>",
-         "transcription_word" : "pa",
-         "ipu_word" : "pais",
-         "start_time" : 75.7620492307692,
-         "end_time" : 76.063031
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A2>",
-         "start_time" : 76.9165292,
-         "end_time" : 77.2084108,
-         "ipu_word" : "ultimas",
-         "transcription_word" : "u00faltimas"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A2>",
-         "end_time" : 83.778149,
-         "start_time" : 83.4515671428571,
-         "ipu_word" : "alli",
-         "transcription_word" : "all"
-      },
-      {
-         "transcription_word" : "jap",
          "ipu_word" : "japo",
          "start_time" : 84.962131,
-         "end_time" : 85.350164,
-         "operation" : "match",
-         "error_label" : "<A2>"
+         "error_type" : "audio_only",
+         "end_time" : 85.350164
       },
       {
-         "operation" : "match",
-         "error_label" : "<A5>",
-         "transcription_word" : "u00f3n",
-         "ipu_word" : "japon",
-         "start_time" : 85.97129,
-         "end_time" : 86.2096575333333
-      },
-      {
-         "error_label" : "<A4>",
-         "operation" : "match",
-         "transcription_word" : "u00edses",
-         "ipu_word" : "paises",
-         "start_time" : 90.4791594,
-         "end_time" : 90.7512091
-      },
-      {
-         "start_time" : 94.9352694545455,
-         "end_time" : 95.2586093636364,
-         "transcription_word" : "u00e1tico",
-         "ipu_word" : "asiatico",
-         "operation" : "match",
-         "error_label" : "<A3>"
-      },
-      {
-         "transcription_word" : "proh",
-         "ipu_word" : "prohibe",
-         "start_time" : 99.5235093478261,
-         "end_time" : 99.8388834347826,
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A4>",
-         "ipu_word" : "paises",
-         "transcription_word" : "u00edses",
-         "end_time" : 104.254120652174,
-         "start_time" : 103.938746565217
-      },
-      {
-         "start_time" : 110.08207125,
-         "end_time" : 110.374132,
-         "ipu_word" : "paises",
-         "transcription_word" : "u00edses",
-         "operation" : "match",
-         "error_label" : "<A4>"
-      },
-      {
-         "start_time" : 110.9582535,
-         "end_time" : 111.25031425,
-         "transcription_word" : "pasar",
-         "ipu_word" : "pasaran",
-         "error_label" : "<A2>",
-         "operation" : "match"
-      },
-      {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "end_time" : 124.332452,
-         "start_time" : 124.115089,
-         "ipu_word" : "japon",
-         "transcription_word" : "jap"
-      },
-      {
-         "operation" : "insert",
-         "error_label" : "<I>",
-         "end_time" : 127.806989142857,
-         "start_time" : 127.384054571429,
-         "transcription_word" : "",
-         "ipu_word" : "doscientos"
-      },
-      {
-         "ipu_word" : "sesenta",
-         "transcription_word" : "<NUM>",
-         "start_time" : 127.806989142857,
+         "ipu_word" : "doscientos sesenta",
          "end_time" : 128.229923714286,
-         "error_label" : "<S>",
-         "operation" : "match"
+         "error_type" : "concatenated_audio_only",
+         "start_time" : 127.384054571429
       },
       {
-         "transcription_word" : "per",
-         "ipu_word" : "peru",
-         "end_time" : 129.921662,
-         "start_time" : 129.498727428571,
-         "operation" : "match",
-         "error_label" : "<A2>"
-      },
-      {
-         "transcription_word" : "pa",
-         "ipu_word" : "pais",
-         "start_time" : 132.68475175,
-         "end_time" : 132.951661,
-         "operation" : "match",
-         "error_label" : "<A3>"
-      },
-      {
-         "ipu_word" : "asi",
-         "transcription_word" : "as",
-         "end_time" : 133.409158157895,
-         "start_time" : 133.126983,
-         "operation" : "match",
-         "error_label" : "<A2>"
-      },
-      {
-         "operation" : "insert",
-         "error_label" : "<I>",
-         "start_time" : 136.230909736842,
-         "end_time" : 136.513084894737,
-         "ipu_word" : "de",
-         "transcription_word" : ""
-      },
-      {
-         "ipu_word" : "en",
-         "transcription_word" : "",
-         "start_time" : 136.513084894737,
-         "end_time" : 136.795260052632,
-         "error_label" : "<I>",
-         "operation" : "insert"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A2>",
-         "transcription_word" : "japon",
-         "ipu_word" : "japones",
-         "start_time" : 137.641785526316,
-         "end_time" : 137.923960684211
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A3>",
-         "end_time" : 139.8812699,
-         "start_time" : 139.60259895,
-         "ipu_word" : "sabado",
-         "transcription_word" : "u00e1bado"
-      },
-      {
-         "ipu_word" : "veintinueve",
-         "transcription_word" : "<NUM>",
          "start_time" : 139.8812699,
+         "error_type" : "audio_only",
          "end_time" : 140.15994085,
-         "error_label" : "<S>",
-         "operation" : "match"
+         "ipu_word" : "veintinueve"
       },
       {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "transcription_word" : "per",
-         "ipu_word" : "peru",
-         "end_time" : 141.83196655,
-         "start_time" : 141.5532956
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A2>",
-         "end_time" : 144.897347,
-         "start_time" : 144.61867605,
-         "ipu_word" : "taiwan",
-         "transcription_word" : "taiw"
-      },
-      {
-         "end_time" : 148.477187,
-         "start_time" : 148.1469724,
-         "ipu_word" : "habian",
-         "transcription_word" : "hab",
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A1>",
-         "end_time" : 153.317960769231,
-         "start_time" : 152.980314923077,
-         "ipu_word" : "administracion",
-         "transcription_word" : "administraci"
-      },
-      {
-         "end_time" : 155.911234285714,
-         "start_time" : 155.575918,
-         "transcription_word" : "seg",
-         "ipu_word" : "segun",
-         "operation" : "match",
-         "error_label" : "<A2>"
-      },
-      {
-         "error_label" : "<I>",
-         "operation" : "insert",
-         "transcription_word" : "",
-         "ipu_word" : "ciento",
-         "end_time" : 157.587815714286,
-         "start_time" : 157.252499428571
-      },
-      {
-         "end_time" : 157.923132,
+         "error_type" : "audio_only",
          "start_time" : 157.587815714286,
-         "transcription_word" : "<NUM>",
-         "ipu_word" : "cuatro",
-         "error_label" : "<S>",
-         "operation" : "match"
+         "end_time" : 157.923132,
+         "ipu_word" : "cuatro"
       },
       {
-         "start_time" : 158.593764571429,
-         "end_time" : 158.929080857143,
-         "ipu_word" : "peru",
-         "transcription_word" : "per",
-         "operation" : "match",
-         "error_label" : "<A2>"
-      },
-      {
-         "error_label" : "<A3>",
-         "operation" : "match",
-         "end_time" : 160.270346,
-         "start_time" : 159.935029714286,
-         "ipu_word" : "mexico",
-         "transcription_word" : "u00e9xico"
-      },
-      {
-         "start_time" : 163.798658111111,
          "end_time" : 164.140796222222,
-         "transcription_word" : "<NUM>",
-         "ipu_word" : "quince",
-         "error_label" : "<S>",
-         "operation" : "match"
+         "start_time" : 163.798658111111,
+         "error_type" : "audio_only",
+         "ipu_word" : "quince"
       },
       {
-         "start_time" : 165.851486777778,
-         "end_time" : 166.193624888889,
-         "ipu_word" : "declaro",
-         "transcription_word" : "declar",
-         "operation" : "match",
-         "error_label" : "<A1>"
-      },
-      {
-         "start_time" : 167.904315444444,
-         "end_time" : 168.246453555556,
-         "transcription_word" : "suspendi",
-         "ipu_word" : "suspendio",
-         "operation" : "match",
-         "error_label" : "<A1>"
-      },
-      {
-         "ipu_word" : "democrata",
-         "transcription_word" : "dem",
-         "start_time" : 172.823612,
-         "end_time" : 173.241055666667,
-         "operation" : "match",
-         "error_label" : "<A4>"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<S>",
-         "end_time" : 173.658499333333,
-         "start_time" : 173.241055666667,
-         "ipu_word" : "el",
-         "transcription_word" : "u00f3crata"
-      },
-      {
-         "error_label" : "<A3>",
-         "operation" : "match",
-         "transcription_word" : "u00edmulo",
-         "ipu_word" : "estimulo",
-         "start_time" : 177.582182130435,
-         "end_time" : 177.904423043478
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A1>",
-         "start_time" : 179.515627608696,
-         "end_time" : 179.837868521739,
-         "transcription_word" : "repercusi",
-         "ipu_word" : "repercusion"
-      },
-      {
-         "transcription_word" : "u00f3mica",
-         "ipu_word" : "economica",
-         "end_time" : 180.160109434783,
-         "start_time" : 179.837868521739,
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "end_time" : 184.155835,
-         "start_time" : 183.8755915,
-         "transcription_word" : "coalici",
-         "ipu_word" : "coalicion"
-      },
-      {
-         "ipu_word" : "japon",
-         "transcription_word" : "jap",
-         "end_time" : 185.276809,
-         "start_time" : 184.9965655,
-         "operation" : "match",
-         "error_label" : "<A2>"
-      },
-      {
-         "error_label" : "<A3>",
-         "operation" : "match",
-         "end_time" : 191.085967625,
-         "start_time" : 190.74329325,
-         "transcription_word" : "u00f3mica",
-         "ipu_word" : "economica"
-      },
-      {
-         "operation" : "insert",
-         "error_label" : "<I>",
-         "transcription_word" : "",
-         "ipu_word" : "dos",
-         "end_time" : 192.157776,
-         "start_time" : 191.94964
-      },
-      {
-         "ipu_word" : "ocho",
-         "transcription_word" : "",
-         "start_time" : 192.365912,
          "end_time" : 192.574048,
-         "operation" : "insert",
-         "error_label" : "<I>"
-      },
-      {
-         "transcription_word" : "",
-         "ipu_word" : "ciento",
-         "start_time" : 195.6735491875,
-         "end_time" : 195.996978625,
-         "error_label" : "<I>",
-         "operation" : "insert"
+         "start_time" : 192.365912,
+         "error_type" : "audio_only",
+         "ipu_word" : "ocho"
       },
       {
          "ipu_word" : "ochenta",
-         "transcription_word" : "",
          "start_time" : 195.996978625,
-         "end_time" : 196.3204080625,
-         "error_label" : "<I>",
-         "operation" : "insert"
-      },
-      {
-         "ipu_word" : "y",
-         "transcription_word" : "",
-         "start_time" : 196.3204080625,
-         "end_time" : 196.6438375,
-         "operation" : "insert",
-         "error_label" : "<I>"
+         "error_type" : "audio_only",
+         "end_time" : 196.3204080625
       },
       {
          "ipu_word" : "seis",
-         "transcription_word" : "",
-         "start_time" : 196.6438375,
          "end_time" : 196.9672669375,
-         "operation" : "insert",
-         "error_label" : "<I>"
+         "start_time" : 196.6438375,
+         "error_type" : "audio_only"
       },
       {
-         "error_label" : "<A3>",
-         "operation" : "match",
-         "start_time" : 197.93755525,
-         "end_time" : 198.2609846875,
-         "transcription_word" : "u00f3lares",
-         "ipu_word" : "dolares"
-      },
-      {
-         "error_label" : "<I>",
-         "operation" : "insert",
-         "ipu_word" : "quinientos",
-         "transcription_word" : "",
-         "start_time" : 200.54491425,
-         "end_time" : 200.854356333333
-      },
-      {
-         "ipu_word" : "sesenta",
-         "transcription_word" : "",
-         "start_time" : 200.854356333333,
+         "ipu_word" : "quinientos sesenta",
          "end_time" : 201.163798416667,
-         "operation" : "insert",
-         "error_label" : "<I>"
-      },
-      {
-         "ipu_word" : "dolares",
-         "transcription_word" : "u00f3lares",
-         "end_time" : 202.40156675,
-         "start_time" : 202.092124666667,
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "end_time" : 205.051496761905,
-         "start_time" : 204.780428380952,
-         "ipu_word" : "dos",
-         "transcription_word" : "",
-         "operation" : "insert",
-         "error_label" : "<I>"
+         "start_time" : 200.54491425,
+         "error_type" : "concatenated_audio_only"
       },
       {
          "start_time" : 205.322565142857,
+         "error_type" : "audio_only",
          "end_time" : 205.59363352381,
-         "transcription_word" : "",
-         "ipu_word" : "ocho",
-         "operation" : "insert",
-         "error_label" : "<I>"
+         "ipu_word" : "ocho"
       },
       {
-         "transcription_word" : "u00f3mico",
-         "ipu_word" : "economico",
-         "end_time" : 206.406838666667,
-         "start_time" : 206.135770285714,
-         "operation" : "match",
-         "error_label" : "<A3>"
-      },
-      {
-         "error_label" : "<A4>",
-         "operation" : "match",
-         "ipu_word" : "mas",
-         "transcription_word" : "m",
-         "end_time" : 207.220043809524,
-         "start_time" : 206.948975428571
-      },
-      {
-         "error_label" : "<I>",
-         "operation" : "insert",
-         "end_time" : 207.762180571429,
-         "start_time" : 207.491112190476,
-         "ipu_word" : "ciento",
-         "transcription_word" : ""
-      },
-      {
-         "operation" : "insert",
-         "error_label" : "<I>",
+         "error_type" : "audio_only",
          "start_time" : 207.762180571429,
          "end_time" : 208.033248952381,
-         "ipu_word" : "cuarenta",
-         "transcription_word" : ""
+         "ipu_word" : "cuarenta"
       },
       {
-         "start_time" : 208.846454095238,
-         "end_time" : 209.11752247619,
-         "transcription_word" : "u00f3lares",
-         "ipu_word" : "dolares",
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "transcription_word" : "m",
-         "ipu_word" : "mas",
-         "start_time" : 211.204544692308,
-         "end_time" : 211.497142538462,
-         "operation" : "match",
-         "error_label" : "<A4>"
-      },
-      {
-         "operation" : "insert",
-         "error_label" : "<I>",
-         "ipu_word" : "quinientos",
-         "transcription_word" : "",
-         "end_time" : 212.082338230769,
-         "start_time" : 211.789740384615
-      },
-      {
-         "error_label" : "<I>",
-         "operation" : "insert",
-         "start_time" : 212.082338230769,
+         "start_time" : 211.789740384615,
+         "error_type" : "concatenated_audio_only",
          "end_time" : 212.374936076923,
-         "transcription_word" : "",
-         "ipu_word" : "veintitres"
+         "ipu_word" : "quinientos veintitres"
       },
       {
-         "error_label" : "<I>",
-         "operation" : "insert",
-         "transcription_word" : "",
-         "ipu_word" : "de",
-         "end_time" : 213.252729615385,
-         "start_time" : 212.960131769231
-      },
-      {
-         "ipu_word" : "dolares",
-         "transcription_word" : "",
-         "start_time" : 213.252729615385,
-         "end_time" : 213.545327461538,
-         "error_label" : "<I>",
-         "operation" : "insert"
-      },
-      {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "ipu_word" : "ademas",
-         "transcription_word" : "adem",
-         "end_time" : 216.0498436875,
-         "start_time" : 215.727649
-      },
-      {
-         "end_time" : 218.6274011875,
-         "start_time" : 218.3052065,
          "ipu_word" : "nueve",
-         "transcription_word" : "",
-         "operation" : "insert",
-         "error_label" : "<I>"
+         "error_type" : "audio_only",
+         "start_time" : 218.3052065,
+         "end_time" : 218.6274011875
       },
       {
-         "operation" : "insert",
-         "error_label" : "<I>",
-         "transcription_word" : "",
          "ipu_word" : "trecientos",
-         "start_time" : 218.949595875,
-         "end_time" : 219.2717905625
+         "end_time" : 219.2717905625,
+         "error_type" : "audio_only",
+         "start_time" : 218.949595875
       },
       {
-         "end_time" : 220.238374625,
-         "start_time" : 219.9161799375,
-         "ipu_word" : "dolares",
-         "transcription_word" : "u00f3lares",
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "transcription_word" : "u00f3nomos",
-         "ipu_word" : "autonomos",
-         "end_time" : 222.848792,
-         "start_time" : 222.5772365,
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A1>",
-         "start_time" : 229.546683117647,
-         "end_time" : 229.838728705882,
-         "transcription_word" : "administraci",
-         "ipu_word" : "administracion"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A2>",
-         "ipu_word" : "cuantia",
-         "transcription_word" : "cuant",
-         "end_time" : 231.006911058824,
-         "start_time" : 230.714865470588
-      },
-      {
-         "end_time" : 235.244173769231,
+         "error_type" : "audio_only",
          "start_time" : 234.953486923077,
-         "ipu_word" : "cuatro",
-         "transcription_word" : "",
-         "error_label" : "<I>",
-         "operation" : "insert"
+         "end_time" : 235.244173769231,
+         "ipu_word" : "cuatro"
       },
       {
-         "error_label" : "<I>",
-         "operation" : "insert",
          "ipu_word" : "seiscientos",
-         "transcription_word" : "",
-         "start_time" : 235.534860615385,
-         "end_time" : 235.825547461538
+         "end_time" : 235.825547461538,
+         "error_type" : "audio_only",
+         "start_time" : 235.534860615385
       },
       {
-         "error_label" : "<A3>",
-         "operation" : "match",
-         "transcription_word" : "u00f3lares",
-         "ipu_word" : "dolares",
-         "start_time" : 236.406921153846,
-         "end_time" : 236.697608
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A4>",
-         "end_time" : 237.903024,
-         "start_time" : 237.657468666667,
-         "transcription_word" : "a",
-         "ipu_word" : "ano"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A2>",
-         "transcription_word" : "dar",
-         "ipu_word" : "dara",
-         "start_time" : 238.394134666667,
-         "end_time" : 238.63969
-      },
-      {
-         "transcription_word" : "opci",
-         "ipu_word" : "opcion",
-         "start_time" : 243.892774083333,
-         "end_time" : 244.242613166667,
-         "operation" : "match",
-         "error_label" : "<A2>"
-      },
-      {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "ipu_word" : "seria",
-         "transcription_word" : "ser",
-         "start_time" : 244.242613166667,
-         "end_time" : 244.59245225
-      },
-      {
-         "transcription_word" : "u00edfica",
-         "ipu_word" : "especifica",
-         "end_time" : 259.527067,
-         "start_time" : 259.170931166667,
-         "operation" : "match",
-         "error_label" : "<A3>"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A4>",
-         "transcription_word" : "u00f1ala",
-         "ipu_word" : "senala",
-         "end_time" : 260.68623875,
-         "start_time" : 260.421139166667
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A3>",
-         "transcription_word" : "u00famero",
-         "ipu_word" : "numero",
-         "end_time" : 262.011736666667,
-         "start_time" : 261.746637083333
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A1>",
-         "start_time" : 264.780124222222,
-         "end_time" : 265.156768333333,
-         "ipu_word" : "aprobara",
-         "transcription_word" : "aprobar"
-      },
-      {
-         "start_time" : 265.910056555556,
-         "end_time" : 266.286700666667,
-         "transcription_word" : "u00f3micas",
-         "ipu_word" : "economicas",
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "start_time" : 266.663344777778,
-         "end_time" : 267.039988888889,
-         "ipu_word" : "proxima",
-         "transcription_word" : "u00f3xima",
-         "operation" : "match",
-         "error_label" : "<A3>"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A4>",
-         "ipu_word" : "mas",
-         "transcription_word" : "m",
-         "end_time" : 268.48777225,
-         "start_time" : 268.2264145
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A1>",
-         "ipu_word" : "intentara",
-         "transcription_word" : "intentar",
-         "start_time" : 273.977941875,
-         "end_time" : 274.343724416667
-      },
-      {
-         "error_label" : "<A1>",
-         "operation" : "match",
-         "ipu_word" : "colaborara",
-         "transcription_word" : "colaborar",
-         "end_time" : 280.558511,
-         "start_time" : 280.151683
-      },
-      {
-         "error_label" : "<A3>",
-         "operation" : "match",
-         "start_time" : 286.5252525,
-         "end_time" : 286.734104,
-         "transcription_word" : "hab",
-         "ipu_word" : "habian"
-      },
-      {
-         "transcription_word" : "hab",
-         "ipu_word" : "habian",
-         "start_time" : 287.56951,
-         "end_time" : 287.7783615,
-         "operation" : "match",
-         "error_label" : "<A3>"
-      },
-      {
-         "ipu_word" : "ademas",
-         "transcription_word" : "adem",
-         "start_time" : 298.724606,
-         "end_time" : 299.023105705882,
-         "error_label" : "<A2>",
-         "operation" : "match"
-      },
-      {
-         "operation" : "insert",
-         "error_label" : "<I>",
          "end_time" : 301.112603647059,
+         "error_type" : "audio_only",
          "start_time" : 300.814103941176,
-         "transcription_word" : "",
          "ipu_word" : "sesenta"
       },
       {
-         "end_time" : 301.411103352941,
-         "start_time" : 301.112603647059,
-         "transcription_word" : "",
-         "ipu_word" : "y",
-         "operation" : "insert",
-         "error_label" : "<I>"
-      },
-      {
-         "ipu_word" : "ocho",
-         "transcription_word" : "<NUM>",
-         "start_time" : 301.411103352941,
          "end_time" : 301.709603058824,
-         "error_label" : "<S>",
-         "operation" : "match"
+         "start_time" : 301.411103352941,
+         "error_type" : "audio_only",
+         "ipu_word" : "ocho"
       },
       {
-         "transcription_word" : "infecci",
-         "ipu_word" : "infeccion",
-         "start_time" : 315.403868666667,
-         "end_time" : 315.702223333333,
-         "error_label" : "<A2>",
-         "operation" : "match"
-      },
-      {
-         "ipu_word" : "ciudadania",
-         "transcription_word" : "ciudadan",
-         "end_time" : 320.515188,
-         "start_time" : 320.297175,
-         "error_label" : "<A1>",
-         "operation" : "match"
-      },
-      {
-         "ipu_word" : "reunira",
-         "transcription_word" : "reunir",
-         "start_time" : 324.984547588235,
-         "end_time" : 325.263181529412,
-         "error_label" : "<A1>",
-         "operation" : "match"
-      },
-      {
-         "transcription_word" : "comisi",
-         "ipu_word" : "comision",
-         "end_time" : 326.656351235294,
-         "start_time" : 326.377717294118,
-         "operation" : "match",
-         "error_label" : "<A2>"
-      },
-      {
-         "error_label" : "<A1>",
-         "operation" : "match",
-         "transcription_word" : "encargada",
-         "ipu_word" : "encargado",
-         "start_time" : 328.147737,
-         "end_time" : 328.5248768
-      },
-      {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "end_time" : 331.664620333333,
-         "start_time" : 331.302101666667,
-         "ipu_word" : "intencion",
-         "transcription_word" : "intenci"
-      },
-      {
-         "error_label" : "<A3>",
-         "operation" : "match",
-         "end_time" : 333.817633,
-         "start_time" : 333.538948,
-         "ipu_word" : "el",
-         "transcription_word" : "ella"
-      },
-      {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "ipu_word" : "situacion",
-         "transcription_word" : "situaci",
-         "start_time" : 334.653688,
-         "end_time" : 334.932373
-      },
-      {
-         "transcription_word" : "qu",
-         "ipu_word" : "que",
-         "end_time" : 336.883168,
-         "start_time" : 336.604483,
-         "operation" : "match",
-         "error_label" : "<A2>"
-      },
-      {
-         "end_time" : 341.40494825,
-         "start_time" : 341.040656,
-         "transcription_word" : "u00f3viles",
-         "ipu_word" : "automoviles",
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A1>",
-         "start_time" : 343.954994,
-         "end_time" : 344.31928625,
-         "ipu_word" : "produccion",
-         "transcription_word" : "producci"
-      },
-      {
-         "start_time" : 345.04787075,
-         "end_time" : 345.412163,
-         "ipu_word" : "nipon",
-         "transcription_word" : "nip",
-         "operation" : "match",
-         "error_label" : "<A2>"
-      },
-      {
-         "ipu_word" : "vehiculos",
-         "transcription_word" : "u00edculos",
-         "start_time" : 347.609446125,
-         "end_time" : 347.878566,
-         "operation" : "match",
-         "error_label" : "<A3>"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A4>",
-         "transcription_word" : "u00edses",
-         "ipu_word" : "paises",
-         "end_time" : 352.831852,
-         "start_time" : 352.480355285714
-      },
-      {
-         "error_label" : "<A1>",
-         "operation" : "match",
-         "transcription_word" : "producci",
-         "ipu_word" : "produccion",
-         "end_time" : 357.182793529412,
-         "start_time" : 356.861483882353
-      },
-      {
-         "start_time" : 359.753270705882,
-         "end_time" : 360.074580352941,
-         "transcription_word" : "u00f3ximo",
-         "ipu_word" : "proximo",
-         "operation" : "match",
-         "error_label" : "<A3>"
-      },
-      {
-         "end_time" : 369.351842222222,
-         "start_time" : 368.973779944444,
-         "transcription_word" : "u00edculos",
-         "ipu_word" : "vehiculos",
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "end_time" : 370.486029055556,
-         "start_time" : 370.107966777778,
-         "ipu_word" : "repercusion",
-         "transcription_word" : "repercusi",
-         "error_label" : "<A1>",
-         "operation" : "match"
-      },
-      {
-         "error_label" : "<A3>",
-         "operation" : "match",
-         "ipu_word" : "fabricas",
-         "transcription_word" : "u00e1bricas",
-         "end_time" : 374.895202,
-         "start_time" : 374.436147
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A2>",
-         "start_time" : 378.5118531,
-         "end_time" : 378.834622,
-         "ipu_word" : "japon",
-         "transcription_word" : "jap"
-      },
-      {
-         "end_time" : 380.8411274375,
-         "start_time" : 380.454702625,
-         "transcription_word" : "u00e1bricas",
-         "ipu_word" : "fabricas",
-         "operation" : "match",
-         "error_label" : "<A3>"
-      },
-      {
-         "end_time" : 384.31895075,
-         "start_time" : 383.9325259375,
-         "transcription_word" : "u00edculos",
-         "ipu_word" : "vehiculos",
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "end_time" : 385.86465,
-         "start_time" : 385.4782251875,
-         "transcription_word" : "u00e1sticamente",
-         "ipu_word" : "drasticamente",
-         "error_label" : "<A2>",
-         "operation" : "match"
-      },
-      {
-         "operation" : "insert",
-         "error_label" : "<I>",
-         "ipu_word" : "ochenta",
-         "transcription_word" : "",
+         "start_time" : 389.074720461538,
+         "error_type" : "audio_only",
          "end_time" : 389.366476846154,
-         "start_time" : 389.074720461538
+         "ipu_word" : "ochenta"
       },
       {
-         "transcription_word" : "",
-         "ipu_word" : "por",
-         "start_time" : 389.366476846154,
-         "end_time" : 389.658233230769,
-         "error_label" : "<I>",
-         "operation" : "insert"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<S>",
-         "start_time" : 389.658233230769,
-         "end_time" : 389.949989615385,
-         "ipu_word" : "ciento",
-         "transcription_word" : "<NUM>"
-      },
-      {
-         "ipu_word" : "periodo",
-         "transcription_word" : "per",
-         "start_time" : 391.470613444444,
-         "end_time" : 391.685554555556,
-         "operation" : "match",
-         "error_label" : "<A3>"
-      },
-      {
-         "start_time" : 391.900495666667,
-         "end_time" : 392.115436777778,
-         "transcription_word" : "",
-         "ipu_word" : "dos",
-         "error_label" : "<I>",
-         "operation" : "insert"
-      },
-      {
-         "operation" : "insert",
-         "error_label" : "<I>",
          "ipu_word" : "diecinueve",
-         "transcription_word" : "",
          "start_time" : 392.330377888889,
+         "error_type" : "audio_only",
          "end_time" : 392.545319
       },
       {
-         "ipu_word" : "situacion",
-         "transcription_word" : "situaci",
-         "end_time" : 394.923625,
-         "start_time" : 394.6887648,
-         "operation" : "match",
-         "error_label" : "<A2>"
-      },
-      {
-         "transcription_word" : "dar",
-         "ipu_word" : "dara",
-         "start_time" : 395.4270702,
-         "end_time" : 395.7301074,
-         "operation" : "match",
-         "error_label" : "<A2>"
-      },
-      {
-         "ipu_word" : "automoviles",
-         "transcription_word" : "u00f3viles",
-         "end_time" : 399.094853357143,
-         "start_time" : 398.752721285714,
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "ipu_word" : "tambien",
-         "transcription_word" : "tambi",
-         "start_time" : 399.094853357143,
-         "end_time" : 399.436985428571
-      },
-      {
-         "ipu_word" : "fabricas",
-         "transcription_word" : "u00e1bricas",
-         "end_time" : 400.463381642857,
-         "start_time" : 400.121249571429,
-         "operation" : "match",
-         "error_label" : "<A3>"
-      },
-      {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "start_time" : 403.895585,
-         "end_time" : 404.327393363636,
-         "transcription_word" : "seg",
-         "ipu_word" : "segun"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A2>",
-         "ipu_word" : "reduciran",
-         "transcription_word" : "reducir",
-         "end_time" : 406.918243545455,
-         "start_time" : 406.486435181818
-      },
-      {
-         "ipu_word" : "drasticamente",
-         "transcription_word" : "u00e1sticamente",
-         "start_time" : 406.918243545455,
-         "end_time" : 407.350051909091,
-         "operation" : "match",
-         "error_label" : "<A2>"
-      },
-      {
-         "end_time" : 408.645477,
-         "start_time" : 408.213668636364,
-         "ipu_word" : "afectara",
-         "transcription_word" : "afectar",
-         "operation" : "match",
-         "error_label" : "<A1>"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A2>",
-         "transcription_word" : "japon",
-         "ipu_word" : "japones",
-         "end_time" : 414.122138,
-         "start_time" : 413.806012
-      },
-      {
-         "transcription_word" : "falleci",
-         "ipu_word" : "fallecio",
-         "end_time" : 415.070516,
-         "start_time" : 414.75439,
-         "error_label" : "<A1>",
-         "operation" : "match"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A1>",
-         "start_time" : 418.7339111875,
-         "end_time" : 419.036865375,
-         "ipu_word" : "confirmo",
-         "transcription_word" : "confirm"
-      },
-      {
-         "end_time" : 420.8545905,
-         "start_time" : 420.5516363125,
          "ipu_word" : "setenta",
-         "transcription_word" : "a",
-         "operation" : "match",
-         "error_label" : "<A5>"
+         "end_time" : 420.8545905,
+         "error_type" : "audio_only",
+         "start_time" : 420.5516363125
       },
       {
-         "error_label" : "<A4>",
-         "operation" : "match",
-         "ipu_word" : "anos",
-         "transcription_word" : "u00f1os",
-         "start_time" : 420.8545905,
-         "end_time" : 421.1575446875
-      },
-      {
-         "transcription_word" : "hab",
-         "ipu_word" : "habia",
-         "end_time" : 422.3693614375,
-         "start_time" : 422.06640725,
-         "error_label" : "<A2>",
-         "operation" : "match"
-      },
-      {
-         "start_time" : 424.264063321429,
          "end_time" : 424.546663642857,
-         "transcription_word" : "<NUM>",
-         "ipu_word" : "diecisiete",
-         "operation" : "match",
-         "error_label" : "<S>"
+         "error_type" : "audio_only",
+         "start_time" : 424.264063321429,
+         "ipu_word" : "diecisiete"
       },
       {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "transcription_word" : "neumon",
-         "ipu_word" : "neumonia",
-         "end_time" : 430.198670071429,
-         "start_time" : 429.91606975
-      },
-      {
-         "ipu_word" : "sometio",
-         "transcription_word" : "someti",
-         "start_time" : 431.046471035714,
-         "end_time" : 431.329071357143,
-         "error_label" : "<A1>",
-         "operation" : "match"
-      },
-      {
-         "end_time" : 433.231645888889,
-         "start_time" : 432.940450944444,
-         "transcription_word" : "<NUM>",
          "ipu_word" : "veinticinco",
-         "error_label" : "<S>",
-         "operation" : "match"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A2>",
-         "start_time" : 435.561205444444,
-         "end_time" : 435.852400388889,
-         "ipu_word" : "habia",
-         "transcription_word" : "hab"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A2>",
-         "transcription_word" : "ten",
-         "ipu_word" : "tenia",
-         "end_time" : 439.412451,
-         "start_time" : 439.117001
-      },
-      {
-         "error_label" : "<A4>",
-         "operation" : "match",
-         "transcription_word" : "trayectoriaen",
-         "ipu_word" : "carrera",
-         "end_time" : 440.298801,
-         "start_time" : 440.003351
-      },
-      {
-         "end_time" : 440.594251,
-         "start_time" : 440.298801,
-         "transcription_word" : "",
-         "ipu_word" : "en",
-         "error_label" : "<I>",
-         "operation" : "insert"
-      },
-      {
-         "end_time" : 441.185151,
-         "start_time" : 440.889701,
-         "transcription_word" : "televisi",
-         "ipu_word" : "television",
-         "error_label" : "<A1>",
-         "operation" : "match"
-      },
-      {
-         "ipu_word" : "representacion",
-         "transcription_word" : "representaci",
-         "start_time" : 443.253301,
-         "end_time" : 443.548751,
-         "error_label" : "<A1>",
-         "operation" : "match"
-      },
-      {
-         "operation" : "insert",
-         "error_label" : "<I>",
-         "ipu_word" : "dos",
-         "transcription_word" : "",
-         "start_time" : 444.852528428571,
-         "end_time" : 445.087422142857
+         "end_time" : 433.231645888889,
+         "error_type" : "audio_only",
+         "start_time" : 432.940450944444
       },
       {
          "start_time" : 445.322315857143,
+         "error_type" : "audio_only",
          "end_time" : 445.557209571429,
-         "transcription_word" : "",
-         "ipu_word" : "seis",
-         "operation" : "insert",
-         "error_label" : "<I>"
+         "ipu_word" : "seis"
       },
       {
-         "end_time" : 446.026997,
-         "start_time" : 445.792103285714,
-         "transcription_word" : "convirti",
-         "ipu_word" : "convirtio",
-         "operation" : "match",
-         "error_label" : "<A1>"
-      },
-      {
-         "start_time" : 446.496784428571,
-         "end_time" : 446.731678142857,
-         "transcription_word" : "u00edder",
-         "ipu_word" : "lider",
-         "operation" : "match",
-         "error_label" : "<A4>"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A2>",
-         "transcription_word" : "compa",
-         "ipu_word" : "compania",
-         "end_time" : 447.436359285714,
-         "start_time" : 447.201465571429
-      },
-      {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "end_time" : 448.21261425,
-         "start_time" : 447.877151,
-         "transcription_word" : "tambi",
-         "ipu_word" : "tambien"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A1>",
-         "end_time" : 450.027463857143,
-         "start_time" : 449.678411428571,
-         "ipu_word" : "instrumentro",
-         "transcription_word" : "instrumento"
-      },
-      {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "ipu_word" : "japones",
-         "transcription_word" : "japon",
-         "start_time" : 450.027463857143,
-         "end_time" : 450.376516285714
-      },
-      {
-         "transcription_word" : "despu",
-         "ipu_word" : "despues",
-         "end_time" : 453.709694470588,
-         "start_time" : 453.346538,
-         "error_label" : "<A2>",
-         "operation" : "match"
-      },
-      {
-         "error_label" : "<A5>",
-         "operation" : "match",
-         "end_time" : 454.799163882353,
          "start_time" : 454.436007411765,
-         "transcription_word" : "a",
+         "error_type" : "audio_only",
+         "end_time" : 454.799163882353,
          "ipu_word" : "setenta"
       },
       {
-         "error_label" : "<A4>",
-         "operation" : "match",
-         "end_time" : 455.162320352941,
-         "start_time" : 454.799163882353,
-         "transcription_word" : "u00f1os",
-         "ipu_word" : "anos"
-      },
-      {
-         "error_label" : "<A1>",
-         "operation" : "match",
-         "start_time" : 456.251789764706,
-         "end_time" : 456.614946235294,
-         "transcription_word" : "continu",
-         "ipu_word" : "continuo"
-      },
-      {
-         "ipu_word" : "descanso",
-         "transcription_word" : "",
          "start_time" : 459.520198,
+         "error_type" : "audio_only",
          "end_time" : 476.284158,
-         "error_label" : "<I>",
-         "operation" : "insert"
+         "ipu_word" : "descanso"
       },
       {
-         "transcription_word" : "u00e9dico",
-         "ipu_word" : "medico",
-         "start_time" : 488.414957578947,
-         "end_time" : 488.700203894737,
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "ipu_word" : "enfermeria",
-         "transcription_word" : "enfermer",
-         "end_time" : 489.555942842105,
-         "start_time" : 489.270696526316,
-         "operation" : "match",
-         "error_label" : "<A1>"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A4>",
-         "start_time" : 492.123159684211,
-         "end_time" : 492.408406,
-         "ipu_word" : "dia",
-         "transcription_word" : "d"
-      },
-      {
-         "ipu_word" : "ademas",
-         "transcription_word" : "adem",
-         "start_time" : 495.230555,
-         "end_time" : 495.574371153846,
-         "error_label" : "<A2>",
-         "operation" : "match"
-      },
-      {
-         "start_time" : 499.356348846154,
-         "end_time" : 499.700165,
-         "ipu_word" : "covid-diecinueve",
-         "transcription_word" : "covid-<NUM>",
-         "error_label" : "<A4>",
-         "operation" : "match"
-      },
-      {
-         "end_time" : 500.707008111111,
-         "start_time" : 500.401610555556,
-         "ipu_word" : "neumonia",
-         "transcription_word" : "neumon",
-         "operation" : "match",
-         "error_label" : "<A2>"
-      },
-      {
-         "ipu_word" : "numero",
-         "transcription_word" : "u00famero",
-         "end_time" : 504.405750428571,
-         "start_time" : 504.120463571429,
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "end_time" : 507.9925808,
-         "start_time" : 507.7203464,
-         "ipu_word" : "vera",
-         "transcription_word" : "ver",
-         "error_label" : "<A2>",
-         "operation" : "match"
-      },
-      {
-         "start_time" : 513.652574733333,
-         "end_time" : 513.904257866667,
-         "ipu_word" : "medico",
-         "transcription_word" : "u00e9dico",
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "start_time" : 513.904257866667,
-         "end_time" : 514.155941,
-         "ipu_word" : "japones",
-         "transcription_word" : "japon"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A4>",
-         "transcription_word" : "m",
-         "ipu_word" : "mas",
-         "end_time" : 518.300587642857,
-         "start_time" : 518.012961285714
-      },
-      {
-         "start_time" : 519.230710666667,
-         "end_time" : 519.583693333333,
-         "transcription_word" : "u00edntomas",
-         "ipu_word" : "sintomas",
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "start_time" : 520.815479,
-         "end_time" : 521.230009545455,
-         "ipu_word" : "ademas",
-         "transcription_word" : "adem"
-      },
-      {
-         "start_time" : 522.059070636364,
-         "end_time" : 522.473601181818,
-         "ipu_word" : "medico",
-         "transcription_word" : "u00e9dico",
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "end_time" : 527.2149318,
-         "start_time" : 526.9596366,
-         "ipu_word" : "mas",
-         "transcription_word" : "m",
-         "operation" : "match",
-         "error_label" : "<A4>"
-      },
-      {
-         "ipu_word" : "cincuenta",
-         "transcription_word" : "",
-         "end_time" : 528.113771647059,
          "start_time" : 527.799432,
-         "operation" : "insert",
-         "error_label" : "<I>"
+         "error_type" : "audio_only",
+         "end_time" : 528.113771647059,
+         "ipu_word" : "cincuenta"
       },
       {
-         "operation" : "insert",
-         "error_label" : "<I>",
-         "transcription_word" : "",
-         "ipu_word" : "y",
-         "end_time" : 528.428111294118,
-         "start_time" : 528.113771647059
-      },
-      {
-         "end_time" : 528.742450941176,
-         "start_time" : 528.428111294118,
-         "transcription_word" : "",
          "ipu_word" : "nueve",
-         "operation" : "insert",
-         "error_label" : "<I>"
+         "error_type" : "audio_only",
+         "start_time" : 528.428111294118,
+         "end_time" : 528.742450941176
       },
       {
-         "operation" : "insert",
-         "error_label" : "<I>",
-         "transcription_word" : "",
-         "ipu_word" : "quinientas",
          "end_time" : 529.371130235294,
-         "start_time" : 529.056790588235
+         "error_type" : "audio_only",
+         "start_time" : 529.056790588235,
+         "ipu_word" : "quinientas"
       },
       {
-         "end_time" : 529.999809529412,
-         "start_time" : 529.685469882353,
-         "transcription_word" : "hab",
-         "ipu_word" : "habian",
-         "operation" : "match",
-         "error_label" : "<A3>"
-      },
-      {
-         "error_label" : "<I>",
-         "operation" : "insert",
-         "transcription_word" : "",
-         "ipu_word" : "novecientos",
-         "end_time" : 534.866874,
-         "start_time" : 534.463532333333
-      },
-      {
-         "start_time" : 534.866874,
+         "ipu_word" : "novecientos sesenta",
          "end_time" : 535.270215666667,
-         "ipu_word" : "sesenta",
-         "transcription_word" : "",
-         "operation" : "insert",
-         "error_label" : "<I>"
+         "start_time" : 534.463532333333,
+         "error_type" : "concatenated_audio_only"
       },
       {
-         "transcription_word" : "",
-         "ipu_word" : "y",
-         "end_time" : 535.673557333333,
-         "start_time" : 535.270215666667,
-         "operation" : "insert",
-         "error_label" : "<I>"
-      },
-      {
-         "transcription_word" : "<NUM>",
          "ipu_word" : "cinco",
+         "error_type" : "audio_only",
          "start_time" : 535.673557333333,
-         "end_time" : 536.076899,
-         "error_label" : "<S>",
-         "operation" : "match"
+         "end_time" : 536.076899
       },
       {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "ipu_word" : "domestica",
-         "transcription_word" : "u00e9stica",
-         "start_time" : 543.551436111111,
-         "end_time" : 543.87605
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A3>",
-         "start_time" : 546.174255,
-         "end_time" : 546.513921333333,
-         "ipu_word" : "raiz",
-         "transcription_word" : "ra"
-      },
-      {
-         "error_label" : "<A3>",
-         "operation" : "match",
-         "end_time" : 549.686277692308,
-         "start_time" : 549.343068846154,
-         "ipu_word" : "periodico",
-         "transcription_word" : "u00f3dico"
-      },
-      {
-         "transcription_word" : "u00e1nico",
-         "ipu_word" : "britanico",
-         "end_time" : 550.029486538462,
-         "start_time" : 549.686277692308,
-         "operation" : "match",
-         "error_label" : "<A3>"
-      },
-      {
-         "end_time" : 551.059113076923,
-         "start_time" : 550.715904230769,
-         "transcription_word" : "inform",
-         "ipu_word" : "informo",
-         "error_label" : "<A1>",
-         "operation" : "match"
-      },
-      {
-         "start_time" : 551.745530769231,
-         "end_time" : 552.088739615385,
-         "ipu_word" : "policia",
-         "transcription_word" : "polic",
-         "error_label" : "<A2>",
-         "operation" : "match"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A2>",
-         "end_time" : 554.0159401,
-         "start_time" : 553.720737,
-         "transcription_word" : "hab",
-         "ipu_word" : "habia"
-      },
-      {
-         "operation" : "insert",
-         "error_label" : "<I>",
-         "ipu_word" : "veinte",
-         "transcription_word" : "",
-         "end_time" : 555.4919556,
+         "ipu_word" : "veinte coma nueve",
+         "end_time" : 556.0823618,
+         "error_type" : "concatenated_audio_only",
          "start_time" : 555.1967525
       },
       {
-         "end_time" : 555.7871587,
-         "start_time" : 555.4919556,
-         "transcription_word" : "",
-         "ipu_word" : "coma",
-         "error_label" : "<I>",
-         "operation" : "insert"
-      },
-      {
-         "error_label" : "<S>",
-         "operation" : "match",
-         "ipu_word" : "nueve",
-         "transcription_word" : "<NUM>",
-         "start_time" : 555.7871587,
-         "end_time" : 556.0823618
-      },
-      {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "start_time" : 557.8535804,
-         "end_time" : 558.1487835,
-         "ipu_word" : "domestica",
-         "transcription_word" : "u00e9stica"
-      },
-      {
-         "start_time" : 558.7391897,
-         "end_time" : 559.0343928,
-         "transcription_word" : "u00faltimas",
-         "ipu_word" : "ultimas",
-         "operation" : "match",
-         "error_label" : "<A2>"
-      },
-      {
-         "ipu_word" : "region",
-         "transcription_word" : "regi",
-         "end_time" : 564.737473956522,
-         "start_time" : 564.402876086957,
-         "operation" : "match",
-         "error_label" : "<A2>"
-      },
-      {
-         "start_time" : 565.072071826087,
-         "end_time" : 565.406669695652,
-         "transcription_word" : "brit",
-         "ipu_word" : "britanica",
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "end_time" : 565.741267565217,
-         "start_time" : 565.406669695652,
-         "ipu_word" : "tambien",
-         "transcription_word" : "u00e1nica",
-         "error_label" : "<A5>",
-         "operation" : "match"
-      },
-      {
-         "transcription_word" : "hab",
-         "ipu_word" : "habia",
-         "start_time" : 567.079659043478,
-         "end_time" : 567.414256913043,
-         "error_label" : "<A2>",
-         "operation" : "match"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A2>",
-         "end_time" : 573.108748625,
-         "start_time" : 572.75085825,
-         "ipu_word" : "podria",
-         "transcription_word" : "podr"
-      },
-      {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "start_time" : 574.18241975,
-         "end_time" : 574.540310125,
-         "ipu_word" : "estres",
-         "transcription_word" : "estr"
-      },
-      {
-         "transcription_word" : "situaci",
-         "ipu_word" : "situacion",
-         "end_time" : 592.217617833333,
-         "start_time" : 591.910395666667,
-         "error_label" : "<A2>",
-         "operation" : "match"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A4>",
-         "transcription_word" : "u00f1al",
-         "ipu_word" : "senal",
-         "end_time" : 593.753728666667,
-         "start_time" : 593.4465065
-      },
-      {
-         "transcription_word" : "u00fablica",
-         "ipu_word" : "publica",
-         "end_time" : 599.599716428571,
-         "start_time" : 599.314541142857,
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "start_time" : 599.884891714286,
-         "end_time" : 600.170067,
-         "transcription_word" : "<NUM>",
          "ipu_word" : "two",
-         "operation" : "match",
-         "error_label" : "<S>"
+         "end_time" : 600.170067,
+         "start_time" : 599.884891714286,
+         "error_type" : "audio_only"
       },
       {
-         "error_label" : "<A3>",
-         "operation" : "match",
-         "ipu_word" : "numero",
-         "transcription_word" : "u00famero",
-         "start_time" : 601.056528,
-         "end_time" : 601.3417025
-      },
-      {
-         "end_time" : 603.337924,
-         "start_time" : 603.0527495,
-         "transcription_word" : "u00e9stica",
-         "ipu_word" : "domestica",
-         "operation" : "match",
-         "error_label" : "<A2>"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A2>",
-         "end_time" : 605.05156975,
-         "start_time" : 604.760136,
-         "transcription_word" : "hab",
-         "ipu_word" : "habia"
-      },
-      {
-         "operation" : "insert",
-         "error_label" : "<I>",
          "ipu_word" : "treinta",
-         "transcription_word" : "",
-         "start_time" : 605.63443725,
-         "end_time" : 605.925871
+         "end_time" : 605.925871,
+         "error_type" : "audio_only",
+         "start_time" : 605.63443725
       },
       {
-         "ipu_word" : "y",
-         "transcription_word" : "",
-         "end_time" : 606.21730475,
-         "start_time" : 605.925871,
-         "operation" : "insert",
-         "error_label" : "<I>"
-      },
-      {
-         "error_label" : "<S>",
-         "operation" : "match",
-         "transcription_word" : "<NUM>",
-         "ipu_word" : "seis",
          "end_time" : 606.5087385,
-         "start_time" : 606.21730475
+         "start_time" : 606.21730475,
+         "error_type" : "audio_only",
+         "ipu_word" : "seis"
       },
       {
-         "operation" : "match",
-         "error_label" : "<A2>",
-         "ipu_word" : "paris",
-         "transcription_word" : "par",
-         "end_time" : 608.54877475,
-         "start_time" : 608.257341
-      },
-      {
-         "end_time" : 616.407878176471,
-         "start_time" : 615.983466705882,
-         "transcription_word" : "u00e9lebre",
-         "ipu_word" : "celebre",
-         "operation" : "match",
-         "error_label" : "<A2>"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A3>",
-         "end_time" : 618.105524058823,
-         "start_time" : 617.681112588235,
-         "ipu_word" : "musica",
-         "transcription_word" : "u00fasica"
-      },
-      {
-         "start_time" : 618.105524058824,
-         "end_time" : 618.529935529412,
-         "transcription_word" : "u00e1sica",
-         "ipu_word" : "clasica",
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "transcription_word" : "contempor",
-         "ipu_word" : "contemporanea",
-         "end_time" : 618.954347,
-         "start_time" : 618.529935529412,
-         "error_label" : "<A2>",
-         "operation" : "match"
-      },
-      {
-         "end_time" : 619.471871615385,
-         "start_time" : 619.249096,
-         "transcription_word" : "falleci",
-         "ipu_word" : "fallecio",
-         "error_label" : "<A1>",
-         "operation" : "match"
-      },
-      {
-         "end_time" : 619.917422846154,
-         "start_time" : 619.694647230769,
-         "transcription_word" : "",
          "ipu_word" : "veinte",
-         "error_label" : "<I>",
-         "operation" : "insert"
+         "error_type" : "audio_only",
+         "start_time" : 619.694647230769,
+         "end_time" : 619.917422846154
       },
       {
-         "operation" : "insert",
-         "error_label" : "<I>",
-         "ipu_word" : "y",
-         "transcription_word" : "",
-         "start_time" : 619.917422846154,
-         "end_time" : 620.140198461538
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<S>",
-         "transcription_word" : "<NUM>",
          "ipu_word" : "nueve",
          "start_time" : 620.140198461538,
+         "error_type" : "audio_only",
          "end_time" : 620.362974076923
       },
       {
-         "operation" : "insert",
-         "error_label" : "<I>",
-         "end_time" : 621.476852153846,
-         "start_time" : 621.254076538462,
          "ipu_word" : "ochenta",
-         "transcription_word" : ""
+         "error_type" : "audio_only",
+         "start_time" : 621.254076538462,
+         "end_time" : 621.476852153846
       },
       {
-         "end_time" : 621.699627769231,
-         "start_time" : 621.476852153846,
-         "ipu_word" : "y",
-         "transcription_word" : "<NUM>",
-         "error_label" : "<S>",
-         "operation" : "match"
-      },
-      {
-         "end_time" : 621.922403384615,
-         "start_time" : 621.699627769231,
          "ipu_word" : "seis",
-         "transcription_word" : "a",
-         "operation" : "match",
-         "error_label" : "<S>"
+         "start_time" : 621.699627769231,
+         "error_type" : "audio_only",
+         "end_time" : 621.922403384615
       },
       {
-         "transcription_word" : "u00f1os",
-         "ipu_word" : "anos",
-         "end_time" : 622.145179,
-         "start_time" : 621.922403384615,
-         "operation" : "match",
-         "error_label" : "<A4>"
-      },
-      {
-         "error_label" : "<A3>",
-         "operation" : "match",
-         "ipu_word" : "treno",
-         "transcription_word" : "u0022treno",
-         "start_time" : 624.497678909091,
-         "end_time" : 624.831810090909
-      },
-      {
-         "transcription_word" : "u00edctimas",
-         "ipu_word" : "victimas",
-         "start_time" : 625.500072454545,
-         "end_time" : 625.834203636364,
-         "operation" : "match",
-         "error_label" : "<A3>"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A3>",
-         "ipu_word" : "publico",
-         "transcription_word" : "u00fablico",
-         "start_time" : 630.588646375,
-         "end_time" : 630.92822
-      },
-      {
+         "ipu_word" : "novecientos sesenta",
+         "error_type" : "concatenated_audio_only",
          "start_time" : 632.860840428571,
-         "end_time" : 633.171638714286,
-         "transcription_word" : "",
-         "ipu_word" : "novecientos",
-         "error_label" : "<I>",
-         "operation" : "insert"
+         "end_time" : 633.482437
       },
       {
-         "start_time" : 633.171638714286,
-         "end_time" : 633.482437,
-         "ipu_word" : "sesenta",
-         "transcription_word" : "",
-         "error_label" : "<I>",
-         "operation" : "insert"
-      },
-      {
-         "start_time" : 634.67617725,
-         "end_time" : 635.0255655,
-         "transcription_word" : "u00fasica",
-         "ipu_word" : "musica",
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A1>",
-         "start_time" : 635.0255655,
-         "end_time" : 635.37495375,
-         "transcription_word" : "sirvi",
-         "ipu_word" : "sirvio"
-      },
-      {
-         "ipu_word" : "peliculas",
-         "transcription_word" : "u00edculas",
-         "start_time" : 636.77250675,
-         "end_time" : 637.121895,
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "error_label" : "<A4>",
-         "operation" : "match",
-         "ipu_word" : "el",
-         "transcription_word" : "u0022el",
-         "end_time" : 639.3095275,
-         "start_time" : 638.823554
-      },
-      {
-         "start_time" : 640.244765,
-         "end_time" : 640.550921,
-         "ipu_word" : "el",
-         "transcription_word" : "u0022el",
-         "error_label" : "<A4>",
-         "operation" : "match"
-      },
-      {
-         "start_time" : 641.888743,
-         "end_time" : 642.25804925,
-         "transcription_word" : "m",
-         "ipu_word" : "mas",
-         "operation" : "match",
-         "error_label" : "<A4>"
-      },
-      {
-         "start_time" : 642.6273555,
-         "end_time" : 642.99666175,
          "ipu_word" : "doscientas",
-         "transcription_word" : "",
-         "operation" : "insert",
-         "error_label" : "<I>"
+         "start_time" : 642.6273555,
+         "error_type" : "audio_only",
+         "end_time" : 642.99666175
       },
       {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "start_time" : 644.47388675,
-         "end_time" : 644.843193,
-         "ipu_word" : "peticion",
-         "transcription_word" : "petici"
-      },
-      {
-         "end_time" : 646.320418,
-         "start_time" : 645.95111175,
-         "ipu_word" : "investigacion",
-         "transcription_word" : "investigaci",
-         "operation" : "match",
-         "error_label" : "<A1>"
-      },
-      {
-         "error_label" : "<A3>",
-         "operation" : "match",
-         "start_time" : 649.247308,
-         "end_time" : 649.620435,
-         "transcription_word" : "u00fablicos",
-         "ipu_word" : "publicos"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A1>",
-         "start_time" : 650.258243785714,
-         "end_time" : 650.634035571429,
-         "transcription_word" : "desat",
-         "ipu_word" : "desato"
-      },
-      {
-         "start_time" : 652.5129945,
-         "end_time" : 652.888786285714,
-         "transcription_word" : "administraci",
-         "ipu_word" : "administracion",
-         "operation" : "match",
-         "error_label" : "<A1>"
-      },
-      {
-         "start_time" : 654.016161642857,
-         "end_time" : 654.391953428571,
-         "ipu_word" : "japones",
-         "transcription_word" : "japon",
-         "error_label" : "<A2>",
-         "operation" : "match"
-      },
-      {
-         "transcription_word" : "petici",
-         "ipu_word" : "peticion",
-         "end_time" : 656.932656222222,
-         "start_time" : 656.589272111111,
-         "operation" : "match",
-         "error_label" : "<A2>"
-      },
-      {
+         "ipu_word" : "point",
          "end_time" : 658.992960888889,
          "start_time" : 658.649576777778,
-         "transcription_word" : "",
-         "ipu_word" : "point",
-         "operation" : "insert",
-         "error_label" : "<I>"
+         "error_type" : "audio_only"
       },
       {
-         "transcription_word" : "inici",
-         "ipu_word" : "inicio",
-         "start_time" : 660.030899142857,
-         "end_time" : 660.351245285714,
-         "error_label" : "<A1>",
-         "operation" : "match"
-      },
-      {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "ipu_word" : "tenia",
-         "transcription_word" : "ten",
-         "start_time" : 664.538539,
-         "end_time" : 664.825635764706
-      },
-      {
-         "transcription_word" : "",
          "ipu_word" : "doscientas",
          "start_time" : 665.686926058824,
-         "end_time" : 665.974022823529,
-         "operation" : "insert",
-         "error_label" : "<I>"
+         "error_type" : "audio_only",
+         "end_time" : 665.974022823529
       },
       {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "ipu_word" : "despues",
-         "transcription_word" : "despu",
-         "end_time" : 667.122409882353,
-         "start_time" : 666.835313117647
-      },
-      {
-         "start_time" : 667.696603411765,
-         "end_time" : 667.983700176471,
          "ipu_word" : "cinco",
-         "transcription_word" : "<NUM>",
-         "operation" : "match",
-         "error_label" : "<S>"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A1>",
-         "transcription_word" : "suicid",
-         "ipu_word" : "suicido",
-         "end_time" : 672.36,
-         "start_time" : 671.874474666667
-      },
-      {
-         "ipu_word" : "anos",
-         "transcription_word" : "u00f1os",
-         "end_time" : 673.861824,
-         "start_time" : 673.482548333333,
-         "error_label" : "<A4>",
-         "operation" : "match"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A2>",
-         "ipu_word" : "despues",
-         "transcription_word" : "despu",
-         "end_time" : 674.53963752,
-         "start_time" : 674.212825
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A1>",
-         "start_time" : 676.82732516,
-         "end_time" : 677.15413768,
-         "ipu_word" : "falsificacion",
-         "transcription_word" : "falsificaci"
-      },
-      {
-         "error_label" : "<A1>",
-         "operation" : "match",
-         "end_time" : 684.678072818182,
-         "start_time" : 684.377855909091,
-         "transcription_word" : "transacci",
-         "ipu_word" : "transaccion"
-      },
-      {
-         "ipu_word" : "desato",
-         "transcription_word" : "desat",
-         "start_time" : 684.678072818182,
-         "end_time" : 684.978289727273,
-         "operation" : "match",
-         "error_label" : "<A1>"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A3>",
-         "ipu_word" : "critica",
-         "transcription_word" : "u00edtica",
-         "end_time" : 685.578723545455,
-         "start_time" : 685.278506636364
-      },
-      {
-         "start_time" : 688.5626025,
-         "end_time" : 688.851247,
-         "ipu_word" : "honorifica",
-         "transcription_word" : "honor",
-         "operation" : "match",
-         "error_label" : "<A3>"
-      },
-      {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "start_time" : 693.629414,
-         "end_time" : 693.926994,
-         "transcription_word" : "relaci",
-         "ipu_word" : "relacion"
-      },
-      {
-         "end_time" : 694.819734,
-         "start_time" : 694.522154,
-         "transcription_word" : "falsificaci",
-         "ipu_word" : "falsificacion",
-         "error_label" : "<A1>",
-         "operation" : "match"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A2>",
-         "start_time" : 695.331305090909,
-         "end_time" : 695.714293181818,
-         "ipu_word" : "fiscalia",
-         "transcription_word" : "fiscal"
-      },
-      {
-         "end_time" : 696.097281272727,
-         "start_time" : 695.714293181818,
-         "ipu_word" : "investigo",
-         "transcription_word" : "investig",
-         "operation" : "match",
-         "error_label" : "<A1>"
-      },
-      {
-         "ipu_word" : "proceso",
-         "transcription_word" : "proces",
-         "end_time" : 698.395209818182,
-         "start_time" : 698.012221727273,
-         "operation" : "match",
-         "error_label" : "<A1>"
-      },
-      {
-         "transcription_word" : "public",
-         "ipu_word" : "publico",
-         "end_time" : 701.7596125,
-         "start_time" : 701.45013,
-         "error_label" : "<A1>",
-         "operation" : "match"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<S>",
-         "transcription_word" : "y",
-         "ipu_word" : "asi",
-         "start_time" : 704.291296,
-         "end_time" : 704.6164373
-      },
-      {
-         "error_label" : "<A4>",
-         "operation" : "match",
-         "end_time" : 704.9415786,
-         "start_time" : 704.6164373,
-         "ipu_word" : "como",
-         "transcription_word" : "recuentos"
-      },
-      {
-         "transcription_word" : "personales",
-         "ipu_word" : "papeles",
-         "end_time" : 705.2667199,
-         "start_time" : 704.9415786,
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "error_label" : "<A1>",
-         "operation" : "match",
-         "end_time" : 709.4356235,
-         "start_time" : 709.047864625,
-         "transcription_word" : "obligadoa",
-         "ipu_word" : "obligado"
-      },
-      {
-         "error_label" : "<I>",
-         "operation" : "insert",
-         "transcription_word" : "",
-         "ipu_word" : "a",
-         "start_time" : 709.4356235,
-         "end_time" : 709.823382375
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A3>",
-         "end_time" : 710.986659,
-         "start_time" : 710.598900125,
-         "ipu_word" : "publicos",
-         "transcription_word" : "u00fablicos"
-      },
-      {
-         "start_time" : 712.979569277778,
-         "end_time" : 713.258357555555,
-         "transcription_word" : "trav",
-         "ipu_word" : "traves",
-         "operation" : "match",
-         "error_label" : "<A2>"
-      },
-      {
-         "start_time" : 716.046240333333,
-         "end_time" : 716.325028611111,
-         "ipu_word" : "agradecia",
-         "transcription_word" : "agradec",
-         "error_label" : "<A2>",
-         "operation" : "match"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A2>",
-         "end_time" : 727.03386631579,
-         "start_time" : 726.792148,
-         "ipu_word" : "tambien",
-         "transcription_word" : "tambi"
-      },
-      {
-         "ipu_word" : "investigacion",
-         "transcription_word" : "investigaci",
-         "end_time" : 731.384796,
-         "start_time" : 731.143077684211,
-         "operation" : "match",
-         "error_label" : "<A1>"
-      },
-      {
-         "transcription_word" : "hab",
-         "ipu_word" : "habia",
-         "end_time" : 733.274845428571,
-         "start_time" : 732.946463142857,
-         "error_label" : "<A2>",
-         "operation" : "match"
+         "end_time" : 667.983700176471,
+         "start_time" : 667.696603411765,
+         "error_type" : "audio_only"
       },
       {
          "ipu_word" : "antes",
-         "transcription_word" : "",
          "end_time" : 738.8780436,
          "start_time" : 738.518929,
-         "operation" : "insert",
-         "error_label" : "<I>"
+         "error_type" : "audio_only"
       },
       {
-         "error_label" : "<I>",
-         "operation" : "insert",
-         "transcription_word" : "",
-         "ipu_word" : "de",
-         "end_time" : 739.2371582,
-         "start_time" : 738.8780436
-      },
-      {
-         "transcription_word" : "",
          "ipu_word" : "terminar",
          "end_time" : 739.5962728,
-         "start_time" : 739.2371582,
-         "error_label" : "<I>",
-         "operation" : "insert"
+         "error_type" : "audio_only",
+         "start_time" : 739.2371582
       },
       {
-         "error_label" : "<I>",
-         "operation" : "insert",
-         "transcription_word" : "",
-         "ipu_word" : "le",
-         "end_time" : 739.9553874,
-         "start_time" : 739.5962728
-      },
-      {
-         "operation" : "insert",
-         "error_label" : "<I>",
-         "transcription_word" : "",
          "ipu_word" : "recordamos",
          "end_time" : 740.314502,
-         "start_time" : 739.9553874
+         "start_time" : 739.9553874,
+         "error_type" : "audio_only"
       },
       {
-         "transcription_word" : "",
-         "ipu_word" : "nuestra",
-         "start_time" : 740.314502,
-         "end_time" : 740.6736166,
-         "operation" : "insert",
-         "error_label" : "<I>"
-      },
-      {
-         "transcription_word" : "",
-         "ipu_word" : "primera",
-         "start_time" : 740.6736166,
-         "end_time" : 741.0327312,
-         "error_label" : "<I>",
-         "operation" : "insert"
-      },
-      {
-         "operation" : "insert",
-         "error_label" : "<I>",
-         "transcription_word" : "",
-         "ipu_word" : "noticia",
          "end_time" : 741.3918458,
-         "start_time" : 741.0327312
+         "start_time" : 740.6736166,
+         "error_type" : "concatenated_audio_only",
+         "ipu_word" : "primera noticia"
       },
       {
-         "operation" : "insert",
-         "error_label" : "<I>",
-         "ipu_word" : "de",
-         "transcription_word" : "",
-         "end_time" : 741.7509604,
-         "start_time" : 741.3918458
-      },
-      {
-         "ipu_word" : "hoy",
-         "transcription_word" : "jap",
-         "start_time" : 741.7509604,
-         "end_time" : 742.110075,
-         "operation" : "match",
-         "error_label" : "<S>"
-      },
-      {
-         "start_time" : 742.84134,
-         "end_time" : 743.212718869565,
-         "ipu_word" : "japon",
-         "transcription_word" : "u00f3n",
-         "operation" : "match",
-         "error_label" : "<A5>"
-      },
-      {
-         "error_label" : "<A1>",
-         "operation" : "match",
-         "ipu_word" : "prohibicion",
-         "transcription_word" : "prohibici",
-         "end_time" : 745.069613217391,
-         "start_time" : 744.698234347826
-      },
-      {
-         "transcription_word" : "pa",
-         "ipu_word" : "pais",
-         "start_time" : 746.183749826087,
-         "end_time" : 746.555128695652,
-         "operation" : "match",
-         "error_label" : "<A3>"
-      },
-      {
-         "ipu_word" : "mayoria",
-         "transcription_word" : "mayor",
-         "start_time" : 752.1574906,
-         "end_time" : 752.5178372,
-         "operation" : "match",
-         "error_label" : "<A2>"
-      },
-      {
-         "transcription_word" : "u00e1tico",
-         "ipu_word" : "asiatico",
-         "end_time" : 755.845537,
-         "start_time" : 755.515145833333,
-         "error_label" : "<A3>",
-         "operation" : "match"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A1>",
-         "end_time" : 757.3177606,
-         "start_time" : 756.9856074,
-         "ipu_word" : "propagacion",
-         "transcription_word" : "propagaci"
-      },
-      {
-         "ipu_word" : "ademas",
-         "transcription_word" : "adem",
-         "start_time" : 760.717706,
-         "end_time" : 761.0216659,
-         "operation" : "match",
-         "error_label" : "<A2>"
-      },
-      {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "start_time" : 761.6295857,
-         "end_time" : 761.9335456,
-         "transcription_word" : "japon",
-         "ipu_word" : "japones"
-      },
-      {
-         "operation" : "insert",
-         "error_label" : "<I>",
-         "start_time" : 767.810103,
-         "end_time" : 768.123212153846,
-         "transcription_word" : "",
-         "ipu_word" : "en"
-      },
-      {
-         "end_time" : 768.436321307692,
-         "start_time" : 768.123212153846,
          "ipu_word" : "ex",
-         "transcription_word" : "",
-         "error_label" : "<I>",
-         "operation" : "insert"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A3>",
-         "start_time" : 773.069930714286,
-         "end_time" : 773.373890571429,
-         "transcription_word" : "proh",
-         "ipu_word" : "prohibe"
-      },
-      {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "start_time" : 774.285770142857,
-         "end_time" : 774.58973,
-         "transcription_word" : "jap",
-         "ipu_word" : "japon"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A3>",
-         "transcription_word" : "pa",
-         "ipu_word" : "pais",
-         "end_time" : 778.799202055556,
-         "start_time" : 778.499794666667
-      },
-      {
-         "start_time" : 779.398016833333,
-         "end_time" : 779.697424222222,
-         "ipu_word" : "ultimas",
-         "transcription_word" : "u00faltimas",
-         "error_label" : "<A2>",
-         "operation" : "match"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A2>",
-         "transcription_word" : "all",
-         "ipu_word" : "alli",
-         "start_time" : 785.005548285714,
-         "end_time" : 785.303215
-      },
-      {
-         "error_label" : "<A2>",
-         "operation" : "match",
-         "end_time" : 786.329043066667,
-         "start_time" : 786.096154,
-         "ipu_word" : "japon",
-         "transcription_word" : "jap"
-      },
-      {
-         "operation" : "match",
-         "error_label" : "<A4>",
-         "transcription_word" : "u00edses",
-         "ipu_word" : "paises",
-         "start_time" : 790.5770096,
-         "end_time" : 790.8791429
-      },
-      {
-         "error_label" : "<A3>",
-         "operation" : "match",
-         "start_time" : 795.0761522,
-         "end_time" : 795.3635869,
-         "transcription_word" : "u00e1tico",
-         "ipu_word" : "asiatico"
-      },
-      {
-         "error_label" : "<A3>",
-         "operation" : "match",
-         "start_time" : 798.672853434783,
-         "end_time" : 798.953638043478,
-         "ipu_word" : "prohibe",
-         "transcription_word" : "proh"
-      },
-      {
-         "error_label" : "<A4>",
-         "operation" : "match",
-         "ipu_word" : "paises",
-         "transcription_word" : "u00edses",
-         "end_time" : 802.884622565217,
-         "start_time" : 802.603837956522
-      },
-      {
-         "start_time" : 807.549246,
-         "end_time" : 837.603313,
-         "transcription_word" : "nacionalidad",
-         "ipu_word" : "conclusion",
-         "operation" : "match",
-         "error_label" : "<A4>"
+         "end_time" : 768.436321307692,
+         "error_type" : "audio_only",
+         "start_time" : 768.123212153846
       }
    ],
-   "timestamp" : "Tue Aug  5 19:26:26 2025"
+   "analysis_type" : "audio_only_errors",
+   "timestamp" : "Tue Aug  5 22:00:24 2025",
+   "total_real_errors" : 50
 }
